@@ -1,6 +1,0 @@
----------------
-Bot By Nng_
----------------
-Make sure turn the pc volume on before running the bot
-The bot will sounds beep few time when the player have MAX STACK of shinobi token (player will found themselves on yulgar)
-:))

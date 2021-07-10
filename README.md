@@ -1,2 +1,2 @@
 # Pearl Harbor: The AQW Sailor's Paradise
-###### Join our [discord server]: (https://discord.io/AQWBots)
+###### [Click here for our discord server link.](https://discord.io/AQWBots)

@@ -1,0 +1,164 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5596
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "icewindpass-3424",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Top"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5596
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "kill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "5596",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "complete"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "kill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "complete"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r3",
+        "Pad": "Bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Top"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "kill"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "1: Chaorruption",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "2: Enigma",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "4: Pandemonium",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "[S] 3: Surge",
+        "Type": 1,
+        "Index": "3",
+        "SafeHealth": 50
+      }
+    ]
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 5596,
+        "Text": "5596"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 5596,
+        "Text": "5596"
+      }
+    ]
+  },
+  "Author": "Author",
+  "Description": "Description",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.InventoryItem, Grimoire",
+        "iQty": 1,
+        "CharItemId": 959028811,
+        "ItemID": 17438,
+        "sName": "REPUTATION Boost! (1 hr)"
+      }
+    ]
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 33237
+  },
+  "SkillDelay": 500,
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": true,
+  "EnablePickup": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "BotDelay": 100,
+  "SkipDelayIndexIf": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true
+}

@@ -1,0 +1,748 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankSwap, Grimoire",
+        "BankItemName": "Bank item name",
+        "InventoryItemName": "Inventory item name"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "2091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "2098",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Drops"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "stalagbite--1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "2091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 2091
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "2098",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 2098
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "a"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "c"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Axe of the Prospector",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "AP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "stalagbite",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "stalagbite--1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Raw Ore",
+        "Value2": "30"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "AP4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "necropolis-1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "c"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "2091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 2091
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "2098",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 2098
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "2091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "2098",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Drops"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Arsenic",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Arsenic"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Beryllium",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Beryllium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Chromium",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Chromium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Palladium",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Palladium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Rhodium",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Rhodium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Thorium",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Thorium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Mercury",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Mercury"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Gold",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Gold"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Barium",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Barium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Iron",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Iron"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Copper",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Copper"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Silver",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Silver"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Platinum",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Platinum"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Aluminum",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Aluminum"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Arsenic",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Arsenic"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Beryllium",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Beryllium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Chromium",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Chromium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Palladium",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Palladium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Rhodium",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Rhodium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Thorium",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Thorium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Mercury",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Mercury"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Gold",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Gold"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Barium",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Barium"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Iron",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Iron"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Copper",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Copper"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Silver",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Silver"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Platinum",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Platinum"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Aluminum",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Aluminum"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "2091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "2098",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdYulgar, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "a"
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "1: Atramentous Shade",
+        "Index": "1",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "1: Atramentous Shade",
+        "Index": "1",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "2: Wicked Purgatory",
+        "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "3: Depraved Empowerment",
+        "Index": "3",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "4: Anathema",
+        "Index": "4",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "b"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "c"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "4: Aspect of The Bat",
+        "Index": "4"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "[S] 1: Devour Blood",
+        "Type": 1,
+        "Index": "1",
+        "SafeHealth": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "3: Ghoul Gouge",
+        "Index": "3"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "[S] 2: Sonar Scream",
+        "Type": 1,
+        "Index": "2",
+        "SafeHealth": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "2: Sonar Scream",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "[S] 3: Ghoul Gouge",
+        "Type": 1,
+        "Index": "3",
+        "SafeHealth": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "1: Devour Blood",
+        "Index": "1"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "[S] 4: Aspect of The Bat",
+        "Type": 1,
+        "Index": "4",
+        "SafeHealth": 60
+      }
+    ]
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "Author",
+  "Description": "Description",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Arsenic",
+      "Beryllium",
+      "Chromium",
+      "Palladium",
+      "Rhodium",
+      "Thorium",
+      "Mercury",
+      "Axe of the Prospector",
+      "Gold",
+      "Barium",
+      "Iron",
+      "Copper",
+      "Silver",
+      "Platinum",
+      "Aluminum"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 15317
+  },
+  "SkillDelay": 500,
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": true,
+  "EnablePickup": true,
+  "RelogDelay": 5000,
+  "BotDelay": 100,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "HidePlayers": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  }
+}

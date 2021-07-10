@@ -1,0 +1,273 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "bloodtuskwar",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "bloodtuskwar-1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 1263
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "K1"
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "Auto Attack",
+        "Index": "0",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "3: Fire in Your Skin",
+        "Index": "3",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "1263",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "K2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "K2"
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "Auto Attack",
+        "Index": "0",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "4: Dark Fire",
+        "Index": "4",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "1263",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "K3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "K3"
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "Auto Attack",
+        "Index": "0",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "2: Choking Shadow Smoke",
+        "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "1263",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "K4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "K4"
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "Auto Attack",
+        "Index": "0",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "SkillCommandPlugin.CmdUseSkill, SkillCommandPlugin",
+        "Skill": "1: Combustion Blaze",
+        "Index": "1",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "1263",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "C1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "c1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
+        "Tag": "Monster",
+        "Text": "Is in room",
+        "Value1": "*",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "k1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "1263",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 1263
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%cmd%1%tfer%PLAYER NAME%bloodtuskwar--1e99%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "1"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "Author",
+  "Description": "Description",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Dark Token"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 6748
+  },
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "ProvokeMonsters": true,
+  "LagKiller": true,
+  "HidePlayers": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true
+}

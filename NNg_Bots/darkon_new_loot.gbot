@@ -1,0 +1,1169 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "equip_solo_class"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "Void Highlord"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "tracker"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "solo_skill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "4: ",
+        "Index": "4",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "3: ",
+        "Index": "3",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "2: ",
+        "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "tracker_after_skill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "start_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "set_class_equip"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 4000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "main_check_all"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "main_check_all"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Astravia Gunblade",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "moon_astravia"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Astravian Saw Scythe",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "moon_astravia"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Astravian Serrated Scythe",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "moon_astravia"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "So's Visage",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "moon_astravia"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Ti's Armor",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ti_map_boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Ti's Cape",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ti_map_boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Ti's Helmet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ti_map_boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Ti's Mace",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ti_map_boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "rest_map"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "rest_map"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 5000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Armor",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Ti's Armor"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Armor",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Cape",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Ti's Cape"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Cape",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Helmet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Ti's Helmet"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Helmet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Mace",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Ti's Mace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Ti's Mace",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Done"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBeep, Grimoire",
+        "Times": 4
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 5000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "moon_astravia"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "astravia",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "astravia_r10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "to_astra_r10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "to_astra_r10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "tracker_int",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "astravia-49832",
+        "Cell": "r10",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "moon_astravia"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "astravia_r10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "tracker_int",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "skill_rotation"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "set_class_equip",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "get_solo_class"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "r10_kill_moon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "r10_kill_moon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r10",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r10",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r10",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "solo_skill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "get_drops_moon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "skill_rotation",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntLessThan, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int Lesser Than",
+        "Value1": "skill_rotation",
+        "Value2": "35"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "r10_kill_moon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Astravia Gunblade",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Astravia Gunblade"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Astravian Saw Scythe",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Astravian Saw Scythe"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Astravian Serrated Scythe",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Astravian Serrated Scythe"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "So's Visage",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "So's Visage"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "main_check_all"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ti_map_boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "astravia",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "astravia_r9"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "astravia-49832",
+        "Cell": "r9",
+        "Pad": "Bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ti_map_boss"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "astravia_r9"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "skill_rotation"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "tracker_int",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "set_class_equip",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "get_solo_class"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "tracker_int",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "astravia_r9_kill_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "astravia_r9_kill_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r9",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r9",
+        "Pad": "Bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r9",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "solo_skill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "get_drops_ti_item"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "skill_rotation",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntLessThan, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int Lesser Than",
+        "Value1": "skill_rotation",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "astravia_r9_kill_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Ti's Armor",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Ti's Armor"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Ti's Cape",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Ti's Cape"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Ti's Helmet",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Ti's Helmet"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Ti's Mace",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Ti's Mace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "main_check_all"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "get_solo_class"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "set_class_equip",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "equip_solo_class"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "tracker"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "tracker_int",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "r10_kill_moon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "tracker_int",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "astravia_r9"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "tracker_after_skill"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "tracker_int",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "get_drops_moon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "tracker_int",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "get_drops_ti_item"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 8001,
+        "Text": "8001"
+      }
+    ]
+  },
+  "Author": "Author",
+  "Description": "Description",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Astravia Gunblade",
+      "Astravian Saw Scythe",
+      "Astravian Serrated Scythe",
+      "So's Visage",
+      "Ti's Armor",
+      "Ti's Cape",
+      "Ti's Helmet",
+      "Ti's Mace"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twig",
+    "iPort": 20876
+  },
+  "ExitCombatBeforeRest": true,
+  "EnableRejection": true,
+  "AutoRelogin": true,
+  "RelogDelay": 8000,
+  "RelogRetryUponFailure": true,
+  "BotDelay": 1,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "Untarget": true,
+  "LagKiller": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 90,
+  "RestartUponDeath": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "La's Gratitude",
+      "The Moon's Head",
+      "The Moon's Cloak"
+    ]
+  },
+  "EnsureTries": 20,
+  "AFK": true,
+  "DropDelay": 1000
+}

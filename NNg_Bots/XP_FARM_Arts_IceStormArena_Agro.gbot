@@ -1,0 +1,207 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "LEVEL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "LEVEL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "IceStormArena",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "IceStormArena",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "IceStormArena",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 0,
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "blank_aggro"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "blank_aggro"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Satan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 0,
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%aggroMon%134123%70%71%72%73%74%75%",
+        "Client": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "2: Dark Power",
+        "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100,
+        "Wait": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "blank_aggro"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "Author",
+  "Description": "Description (Write in RTF)",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.InventoryItem, Grimoire",
+        "iQty": 10,
+        "sDesc": "Using this item will DOUBLE all experience gained from killing monsters or completing quests for 1 hour of in-game play time. ",
+        "iStk": 5000,
+        "iLvl": 1,
+        "bCoins": 1,
+        "CharItemId": 463849990,
+        "sLink": "xpboost::60::true",
+        "sFile": "icbxp",
+        "bEquip": 0,
+        "bUpg": 0,
+        "ItemID": 19189,
+        "sName": "Daily XP Boost! (1 hr)",
+        "IsEquippable": false,
+        "IsWeapon": false,
+        "IsEquippableNonItem": false,
+        "ShouldSerializeDescription": false,
+        "ShouldSerializeMaxStack": false,
+        "ShouldSerializeLevel": false,
+        "ShouldSerializeIsAcItem": false,
+        "ShouldSerializeLink": false,
+        "ShouldSerializeFile": false,
+        "ShouldSerializeIsEquipped": false,
+        "ShouldSerializeIsMemberOnly": false
+      }
+    ]
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Artix",
+    "iPort": 43227
+  },
+  "SkillDelay": 9000,
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": false,
+  "EnablePickup": true,
+  "EnableRejection": true,
+  "EnablePickupAll": false,
+  "EnablePickupAcTagged": false,
+  "EnableRejectAll": false,
+  "AutoRelogin": true,
+  "RelogDelay": 8000,
+  "RelogRetryUponFailure": true,
+  "BotDelay": 1,
+  "WaitForAllSkills": false,
+  "WaitForSkill": false,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "ProvokeMonsters": false,
+  "Untarget": true,
+  "EnemyMagnet": false,
+  "LagKiller": true,
+  "HidePlayers": true,
+  "SkipCutscenes": true,
+  "DisableAnimations": false,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestIfMp": false,
+  "RestIfHp": false,
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "Packet": false,
+  "BankOnStop": false,
+  "EnsureComplete": false,
+  "EnsureTries": 20,
+  "AFK": false,
+  "DropDelay": 1000
+}

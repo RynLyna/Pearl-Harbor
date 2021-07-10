@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------------------------------------------
+Prussia's Ultimate Awe Bot Pack
+-------------------------------------------------------------------------------------------------------------------
+
+You will need the Grimoire 3.8+ PRO application to run this bot, which can be found on the portal website:
+https://skidson.club/
+
+-------------------------------------------------------------------------------------------------------------------
+
+Requirements:
+
+For the Helm & Cape:
+1) Complete the /doomvault, /doomvaultb storylines + get Endless Doom achievement. Follow the wiki Notes:
+- http://aqwwiki.wikidot.com/doom-vault
+- http://aqwwiki.wikidot.com/doom-vault-b
+
+For the Blade:
+1) "Blade of Awe" rank 10 reputation.
+2) You need to complete the storylines of "Chaos Lord Escherion" and "Chaos Lord Kitsune".
+
+For the REP bot:
+1) Complete the first quests "Find the Stonewrit!" and "Find the Handle" then use the rep bot i added to farm
+rank 10 on "Blade of Awe" with the quest "Find the Hilt!".
+
+For non-mem players:
+1) "Blade of Awe" rank 10 reputation.
+2) +55 lvl.
+
+For the Armor:
+1) You need to complete "AQ Lesson" storyline.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Notes: 
+1) The bot is set to do the whole process of farming the items and merging them. 
+2) The bot makes 2 checks before proceeding:
+	Check 1 - It stores all Awe items that you have currently in your inventory.
+	Check 2 - It checks your bank and sees the awe item that you don't have and proceeds to obtaining it.
+	With these checks the bot will farm only the Awe items that you don't own.
+3) The bot will reject every drop which is not connected with the Awe quests.
+4) Class - use a good solo class because almost every quest requires killing/farming bosses.
+   Set your skills or use the SkillCommandPlugin
+
+------------------------------------------------------------------------------------------------------------------
+
+If you find any problems with the bot or you want me to make a bot for something:
+Discord - Prussia#1066
+Site for botting - https://skidson.club/
+
+------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+For Armor of Zular:
+Must have completed Djinn gate quest from Crulon
+(http://aqwwiki.wikidot.com/crulon-s-quests)
+
+Need at least 5 million gold to buy Valoth's Broken Cannon in order to access 'Cannon Restoration' quest
+(http://aqwwiki.wikidot.com/tek-s-quests#Repair)
+
+kill dragon in j6 to get 
+J6's Secret Hideout Map:
+
+/join crashsite
+get Dwakel Decoder:
+%xt%zm%getMapItem%12706%106%
+use get drop cmd
+
+Getting Coordinates to Hyperium at saloon: (might not need)
+%xt%zm%getMapItem%12381%109%
+Use get drop cmd after this
+
+get Crystallized Dragons Breath in saloon:
+%xt%zm%getMapItem%12620%112%
+
+
+
+%xt%zm%serverUseItem%12473%+%5041%525,275%hyperium%
+join hyperium
+goto R10 map then join /zephyrus
+
+in /zephyrus, get %xt%zm%getMapItem%12867%116% (temp item)
+
+get to R20, YOU HAVE TO MANUALLY DO THE FURNACE THINGY:
+get %xt%zm%getMapItem%12986%117%
+
+DROPLIST:
+
+Tap the cactus
+
+
+
+
+
+
+
+
+
+
+
+Bounty Hunter Shop: (Load in hyperium) (Don't need maybe)
+194
+
+Need to complete j6 quest chain: (No need)
+(http://aqwwiki.wikidot.com/j6-house)
+
+
+

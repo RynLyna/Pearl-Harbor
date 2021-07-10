@@ -1,0 +1,31 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*"
+      }
+    ]
+  },
+  "Author": "Satan",
+  "Description": "a kill bot requested by a pylon user",
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 30268
+  },
+  "SkillDelay": 500,
+  "ExitCombatBeforeRest": true,
+  "EnablePickup": true,
+  "RelogDelay": 5000,
+  "BotDelay": 1000,
+  "SkipDelayIndexIf": true,
+  "WalkSpeed": 8,
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "EnsureTries": 20,
+  "DropDelay": 1000
+}

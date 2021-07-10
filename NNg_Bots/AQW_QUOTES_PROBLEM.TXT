@@ -1,0 +1,8 @@
+AQW Drop Items Quote Problems:
+’
+This quote above is the drop from Fluffy’s Bones, which means this quote CANNOT BE TYPED in keyboards, and nor displayed in aqwwiki
+
+'
+This quote above CAN BE TYPE in keyboards, which is mostly (not 100% guaranteed) used to type items characters
+
+BE CAREFUL: IF YOU ADD THE WRONG QUOTE TO THE WHITELIST AND CHECK ON Reject drops, the items will be REJECTED due to the wrong quote mistype.

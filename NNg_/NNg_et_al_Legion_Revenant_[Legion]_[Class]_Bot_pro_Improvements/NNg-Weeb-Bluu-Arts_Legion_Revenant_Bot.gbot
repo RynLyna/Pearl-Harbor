@@ -208,150 +208,76 @@
         "Text": "[145,95,108]▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is not in room",
-        "Value1": "*",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 1
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "5: Potions",
-        "Index": "5",
-        "SafeHp": 100,
-        "SafeMp": 100
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is not in room",
-        "Value1": "*",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 18
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthGreaterThan, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthLessThan, Grimoire",
         "Tag": "This player",
-        "Text": "Health is greater than",
+        "Text": "Health is less than",
         "Value1": "2222",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "3: Unshackle",
-        "Index": "3",
-        "SafeHp": 100,
-        "SafeMp": 100,
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 777
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is in room",
-        "Value1": "*",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "healing_skill_vhl"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "5: Potions",
+        "Skill": "5: ",
         "Index": "5",
         "SafeHp": 100,
         "SafeMp": 100
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is in room",
-        "Value1": "*",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "3: ",
+        "Index": "3",
+        "SafeHp": 100,
+        "SafeMp": 100
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "4: Armageddon",
+        "Skill": "2: ",
+        "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "4: ",
         "Index": "4",
         "SafeHp": 100,
         "SafeMp": 100
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is in room",
-        "Value1": "*",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "lb_counter_drop_add"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "healing_skill_vhl"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "2: Highlord's Gaze",
+        "Skill": "2: ",
         "Index": "2",
         "SafeHp": 100,
-        "SafeMp": 100,
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is not in room",
-        "Value1": "*",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 6
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthGreaterThan, Grimoire",
-        "Tag": "This player",
-        "Text": "Health is greater than",
-        "Value1": "1000",
-        "Value2": ""
+        "SafeMp": 100
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "1: Shackle",
+        "Skill": "1: ",
         "Index": "1",
         "SafeHp": 100,
-        "SafeMp": 100,
-        "Wait": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is in room",
-        "Value1": "*",
-        "Value2": ""
+        "SafeMp": 100
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "0: Contract",
-        "Index": "0",
+        "Skill": "5: ",
+        "Index": "5",
         "SafeHp": 100,
-        "SafeMp": 100,
-        "Wait": true
+        "SafeMp": 100
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 18
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "lb_counter_drop_add"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -366,6 +292,10 @@
         "Text": " "
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "lb_counter_drop_add"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "type": 1,
         "Int": "drop_delay_counter",
@@ -376,7 +306,7 @@
         "Tag": "Misc",
         "Text": "Int Lesser Than",
         "Value1": "drop_delay_counter",
-        "Value2": "4"
+        "Value2": "15"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -10620,7 +10550,7 @@
     ]
   },
   "Author": "Author",
-  "Description": "Description",
+  "Description": "Description (Write in RTF)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -10692,11 +10622,6 @@
       "Legion Revenant",
       "Legion Revenant"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 60541
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,

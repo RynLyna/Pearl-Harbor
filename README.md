@@ -17,3 +17,13 @@
 ## Download a bot
 ### Note: most users they will do this when downloading a bot file. This is NOT WORKING!!!
 ![do_not_download_like_this](./misc/Tutorials/how_to_download/Step_4_how_not_to_download.png)
+
+### So to download the bot file appropriately, here's how you do:
+- Left click on the bot file you like. (For example: I'm using "Ganku_Corrupted-Touch.gbot" as an example)
+![ganku_bot_clicked](./misc/Tutorials/how_to_download/Step_1_download.png)
+
+- It should show like this as you left-clicked. Now click on the "Raw" button
+![ganku_download_raw_button](./misc/Tutorials/how_to_download/Step_2_download.png)
+
+- Right Click then select "Save Page As..". Now choose your local path file to save :))
+![save_page_as_gbot](./misc/Tutorials/how_to_download/Step_3_download.png)

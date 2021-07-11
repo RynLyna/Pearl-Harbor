@@ -27,3 +27,20 @@
 
 - Right Click then select "Save Page As..". Now navigate your local file path to save this bot :))
 ![save_page_as_gbot](./misc/Tutorials/how_to_download/Step_3_download.png)
+
+### Bot download as text file (.txt) problem
+- Download the bot as usual like the previous instruction.
+- goto View tab > Options > Change folder and search options
+![folder_options_change](./misc/Tutorials/how_to_download/Step_1_alternate.png)
+- In the "Folder Options", select View tab, untick the option "Hide extensions for known file types", then click on "apply" and "ok"
+![folder_options_change](./misc/Tutorials/how_to_download/Step_2_alternate.png)
+- Now your downloaded file should gonna be look like this:
+![folder_options_change](./misc/Tutorials/how_to_download/Step_3_alternate.png)
+- Now rename the file, delete the ".txt". Click "Yes" on the warning message
+![folder_options_change](./misc/Tutorials/how_to_download/Step_4_alternate.png)
+-Now your bot file should end with the filetype ".gbot", you are now ready to go!
+
+
+
+
+

@@ -25,5 +25,5 @@
 - It should show like this as you left-clicked. Now click on the "Raw" button
 ![ganku_download_raw_button](./misc/Tutorials/how_to_download/Step_2_download.png)
 
-- Right Click then select "Save Page As..". Now choose your local path file to save this bot :))
+- Right Click then select "Save Page As..". Now navigate your local file path to save this bot :))
 ![save_page_as_gbot](./misc/Tutorials/how_to_download/Step_3_download.png)

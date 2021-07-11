@@ -19,7 +19,7 @@
 ![do_not_download_like_this](./misc/Tutorials/how_to_download/Step_4_how_not_to_download.png)
 
 ### So to download the bot file appropriately, here's how you do:
-- Left click on the bot file you like. (For example: I'm using "Ganku_Corrupted-Touch.gbot" as an example)
+- Left click on the bot file you like. (I'm using "Ganku_Corrupted-Touch.gbot" as an example)
 ![ganku_bot_clicked](./misc/Tutorials/how_to_download/Step_1_download.png)
 
 - It should show like this as you left-clicked. Now click on the "Raw" button

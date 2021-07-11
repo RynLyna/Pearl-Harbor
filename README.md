@@ -15,3 +15,5 @@
 ![goto_file_button_click](./misc/Tutorials/how_to_search/Step_2.png)
 
 ## Download a bot
+### Note: most users they will do this when downloading a bot file. This is NOT WORKING!!!
+![do_not_download_like_this](./misc/Tutorials/how_to_download/Step_4_how_not_to_download.png)

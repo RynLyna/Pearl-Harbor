@@ -415,13 +415,6 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "3: Depraved Empowerment",
-        "Index": "3",
-        "SafeHp": 100,
-        "SafeMp": 100
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": "4: Anathema",
         "Index": "4",
         "SafeHp": 100,

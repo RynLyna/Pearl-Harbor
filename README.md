@@ -3,6 +3,7 @@
 ###### [Click here for our discord server link.](https://discord.io/AQWBots)
 
 ## >>> New AQW Bot website has been up, [click here for the link](https://auqw.tk/) <<<
+###### **(If you want to look for the latest bots, stay in this github page rather than the webiste)**
 
 # Tutotrial:
 

@@ -2,6 +2,8 @@
 ![alt text](./misc/logo/sailor.png)
 ###### [Click here for our discord server link.](https://discord.io/AQWBots)
 
+## >>> New AQW Bot website has been up, [click here for the link](https://auqw.tk/) <<<
+
 # Tutotrial:
 
 **The tutorial is written below, you can check out this tutorial video as an alternative way. [Click here for the video link. (Thanks to Jiren!)](https://www.youtube.com/watch?v=AhK3dnt67Oo)**
